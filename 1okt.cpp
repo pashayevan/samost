@@ -7,7 +7,12 @@
 std::string cleanWord(const std::string& word) {
 	std:: string cleaned:
 	for char c:word) {
-		if
+		if(std::isalpha(c)) {
+			cleaned +=std::to;ower(c);
+		}
+	}
+	return cleaned;
+}
 
 int main() {
 	std::unordered_set<std::string> words ;
